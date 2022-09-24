@@ -7,7 +7,7 @@ An application for purchasing tickets to the Lena Pillars (and not only) on the 
 - [Ticket return](#ticket-return)
 - [Mail editing](#mail-editing)
 - [Switch language](#switch-language)
-- [Sign in/Sign up](sign-in/sign-up)
+- [Sign in/Sign up](sign-insign-up)
 
 ## Application
 
