@@ -11,7 +11,7 @@ An application for purchasing tickets to the Lena Pillars (and not only) on the 
 
 **[The admin panel](#application)** has the following features:
 - Сreating and editing a cruise
-- Manual entry of passengers into cabins
+- Manual registration of passengers into cabins
 - Marking the arrival of passengers
 - View cruise history
 - Adding and editing admins and moderators
@@ -53,14 +53,14 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192094955-84f36ea5-b0be-4fb1-9d84-b7641658bada.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192094946-6693e2c8-f234-4946-8dc3-02705fe02844.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192094985-7ef8f205-ad51-4cd6-811d-2b1b08d54c73.png" width="24.6%" alt="">
-<div>
+</div>
 
 ### Ticket return
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192095861-e1624f9a-76d5-4844-a5d8-d57f341a57f1.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192095856-f4ce2f82-0eb5-41e0-aacc-ceb108dd3daa.png" width="24.6%" alt="">
-<div>
+</div>
 
 ### Mail editing
 
@@ -69,7 +69,7 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192096369-114665f0-765f-4b6b-9c3d-664f11c14eca.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192096377-a8207dd5-cda4-467b-b84d-d77b65a6b6f8.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192096386-47a393f9-49ec-4b3e-ac29-0d35c648d121.png" width="24.6%" alt="">
-<div>
+</div>
 
 ### Switch language
 
@@ -77,18 +77,46 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192096542-3db63d6a-6319-4e51-8cfb-c02b5b83c32c.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192096582-6b3bfa47-1592-429c-89dd-973fab296eb2.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192096658-4b82063f-fc24-49e3-b5bc-5692ba87de6c.png" width="24.6%" alt="">
-<div>
+</div>
 
 ### Sign in/Sign up
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192096802-a32fedf0-c083-4a0e-936e-cded1596dbf0.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192096798-3389589b-bd84-4e1a-91d8-7297c0d08359.png" width="24.6%" alt="">
-<div>
+</div>
+      
+## Admin panel
+
+### Quick start
+
+On command line, type in the following commands:
+
+        $ cd Yktours/admin       (Linux)
+        cd Yktours\admin         (Windows)
+
+        $ yarn start            (Linux)
+        yarn start              (Windows)
         
-        ![image](https://user-images.githubusercontent.com/50858440/192106512-9186eccd-9228-484d-99d0-2f135813e6f2.png)
+### Сreating and editing a cruise
+
+<img src="https://user-images.githubusercontent.com/50858440/192107317-6c2fa50c-4d7b-4378-b20b-524f5866d8f7.png" alt="">
+<img src="https://user-images.githubusercontent.com/50858440/192106951-64551682-b65e-4eae-98ee-ce43073997d4.png" alt="">
+<img src="https://user-images.githubusercontent.com/50858440/192106959-e30b1c62-2536-458d-ae11-914ac42e9778.png" alt="">
+
+### Manual registration of passengers into cabins
+
+<img src="https://user-images.githubusercontent.com/50858440/192106961-e61bca89-052b-4c52-84f7-3cb482d5abd5.png" alt="">
+<img src="https://user-images.githubusercontent.com/50858440/192107568-35f44b21-aa80-476c-8d9a-f626782fdc1d.png" alt="">
+
+### Marking the arrival of passengers
+
+### View cruise history
+
+### Adding and editing admins and moderators
+
 ![image](https://user-images.githubusercontent.com/50858440/192106513-2d72ad41-d1d9-4f3d-8161-9dafd7ca42c0.png)
-![image](https://user-images.githubusercontent.com/50858440/192106518-e749a242-ef4c-43d3-bfcf-2802affa7d6d.png)
+![image](https://user-images.githubusercontent.com/50858440/192106512-9186eccd-9228-484d-99d0-2f135813e6f2.png)
 
 
 
