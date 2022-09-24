@@ -1,0 +1,151 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  //Stats
+  id                String   @id @default(cuid())
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @default(now()) @updatedAt
+  tel               String?   @unique
+  email             String?   @unique
+  emailVerification Boolean @default(false)
+  role              RoleEnum @default(USER)
+  isVerified        Boolean  @default(false)
+
+  // Relations
+  tickets Ticket[]
+}
+
+model Admin {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now()) @updatedAt
+  name        String
+  surname     String
+  email       String
+  password    String
+  role        AdminRoleEnum @default(MODERATOR)
+}
+
+// model Post {
+//     //Stats
+//     id        String   @id @default(cuid())
+//     createdAt DateTime @default(now())
+//     updatedAt DateTime @updatedAt @default(now())
+
+//     status  String   @default("WAITING")
+//     startAt DateTime
+//     newFood Boolean  @default(false)
+//     food    String[]
+//     routeId String
+
+//     // Relations
+//     route   Route    @relation(fields: [routeId], references: [id])
+//     tickets Ticket[]
+// }
+
+model Route {
+  //Stats
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now()) @updatedAt
+  date        DateTime
+  image       String
+  food        Int[]
+  foodKids    Int[]
+  Pricing     Int[]
+  duration    Int
+  Desc        String
+  DescEng     String
+  route       String[]
+  routeEng    String[]
+  ship        Int
+  // Relations
+  ticket      Ticket[]
+  bookedRoom  BookedRoom[]
+}
+
+model Ticket {
+  //Stats
+  id         String   @id @default(uuid())
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @default(now()) @updatedAt
+
+  postId     String
+  room       String  @unique
+  food       Json[]
+  foodEng    Json[]
+  passengers Passengers[]
+  orderId    String? @unique
+  amount     Int?
+  // Relations
+  route      Route   @relation(fields: [postId], references: [id])
+  userId     String
+  user       User    @relation(fields: [userId], references: [id])
+}
+
+model BookedRoom {
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now()) @updatedAt
+  room        String
+  passengers  Passengers[]
+  arrived     Boolean @default(false)
+
+  route       Route   @relation(fields: [routeId], references: [id])
+  routeId     String
+}
+
+model Passengers {
+  id             String   @id @default(cuid())
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @default(now()) @updatedAt
+  food           String?
+  name           String
+  surname        String
+  patronymic     String
+  dateOfBirth    DateTime
+  documentType   String
+  documentNumber String
+  arrived        Boolean @default(false)
+
+  // Relations
+  ticket         Ticket?   @relation(fields: [ticketId], references: [id])
+  ticketId       String?
+  bookedRoom     BookedRoom?   @relation(fields: [bookedId], references: [id])
+  bookedId       String?
+}
+
+model Purchase {
+  //Stats
+  id          String   @id @default(cuid())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @default(now()) @updatedAt
+  orderNumber String?
+  orderId     String?
+  amount      String?
+  description String?
+  url         String?
+  ticketInfo  Json?
+}
+
+
+enum RoleEnum {
+  ADMIN
+  USER
+}
+
+enum AdminRoleEnum {
+  ADMIN
+  MODERATOR
+  OPERATOR
+}

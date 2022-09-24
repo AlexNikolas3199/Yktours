@@ -1,0 +1,37 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img-1 {
+  position: absolute;
+  width: 100%;
+  height: 50vw;
+  max-height: 200px;
+  left: 0;
+  top: 0;
+}
+.img-2 {
+  position: absolute;
+  width: 100%;
+  height: 50vw;
+  max-height: 200px;
+  left: 0;
+  bottom: 0;
+}
+h1 {
+  font-size: 45px;
+  color: #003C8D;
+  font-weight: 'bold';
+}
+.App-header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  z-index: 1;
+}
+.App-p {
+  color: #003C8D;
+}

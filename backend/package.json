@@ -1,0 +1,45 @@
+{
+  "name": "gars-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "migrate": "npx prisma migrate dev --name migration"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/merge": "^6.2.13",
+    "@paljs/generator": "^3.0.5",
+    "@paljs/plugins": "^3.0.11",
+    "@paljs/schema": "^3.0.1",
+    "@prisma/client": "^2.22.0",
+    "apollo-server": "^2.23.0",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.3",
+    "graphql": "^15.5.0",
+    "graphql-middleware": "^6.0.9",
+    "graphql-shield": "^7.5.0",
+    "graphql-tag": "^2.12.4",
+    "graphql-upload": "^13.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "nodemailer": "^6.7.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "pdf-creator-node": "^2.3.4",
+    "randomatic": "^3.1.1",
+    "rubles": "^0.2.0",
+    "shortid": "^2.2.16",
+    "sms_ru": "^0.0.1"
+  },
+  "devDependencies": {
+    "prisma": "^2.22.0"
+  }
+}
