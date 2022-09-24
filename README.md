@@ -9,12 +9,12 @@ An application for purchasing tickets to the Lena Pillars (and not only) on the 
 - [Switch language](#switch-language)
 - [Sign in/Sign up](#sign-insign-up)
 
-**[The admin panel](#application)** has the following features:
-- Сreating and editing a cruise
-- Manual registration of passengers into cabins
-- Marking the arrival of passengers
-- View cruise history
-- Adding and editing admins and moderators
+**[The admin panel](#admin-panel)** has the following features:
+- [Сreating and editing a cruise](#creating-and-editing-a-cruise)
+- [Manual registration of passengers into cabins](#manual-registration-of-passengers-into-cabins)
+- [Marking the arrival of passengers](#marking-the-arrival-of-passengers)
+- [View cruise history](#view-cruise-history)
+- [Adding and editing admins and moderators](#adding-and-editing-admins-and-moderators)
 
 Site "**yktours-web**" is responsible for:
 - confirmation of ticket purchase
@@ -106,11 +106,18 @@ On command line, type in the following commands:
 
 ### Manual registration of passengers into cabins
 
-<img src="https://user-images.githubusercontent.com/50858440/192106961-e61bca89-052b-4c52-84f7-3cb482d5abd5.png" alt="">
+![image](https://user-images.githubusercontent.com/50858440/192106961-e61bca89-052b-4c52-84f7-3cb482d5abd5.png)
+![gif](https://user-images.githubusercontent.com/50858440/192108912-ebdbdaa2-5bb6-482c-a087-5d9c4e6ac33a.gif)
 
 ### Marking the arrival of passengers
 
+![image](https://user-images.githubusercontent.com/50858440/192108978-637965ca-8b74-4a97-ae33-686fe22624bc.png)
+
 ### View cruise history
+
+![image](https://user-images.githubusercontent.com/50858440/192109000-c656d83c-2501-48d9-9f98-761d1ec6f4c0.png)
+![image](https://user-images.githubusercontent.com/50858440/192109045-0750fc6c-bc06-4a31-8aa7-12f9f843cf51.png)
+
 
 ### Adding and editing admins and moderators
 
