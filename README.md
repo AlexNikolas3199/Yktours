@@ -107,7 +107,6 @@ On command line, type in the following commands:
 ### Manual registration of passengers into cabins
 
 <img src="https://user-images.githubusercontent.com/50858440/192106961-e61bca89-052b-4c52-84f7-3cb482d5abd5.png" alt="">
-<img src="https://user-images.githubusercontent.com/50858440/192107568-35f44b21-aa80-476c-8d9a-f626782fdc1d.png" alt="">
 
 ### Marking the arrival of passengers
 
@@ -115,6 +114,7 @@ On command line, type in the following commands:
 
 ### Adding and editing admins and moderators
 
+![image](https://user-images.githubusercontent.com/50858440/192107568-35f44b21-aa80-476c-8d9a-f626782fdc1d.png)
 ![image](https://user-images.githubusercontent.com/50858440/192106513-2d72ad41-d1d9-4f3d-8161-9dafd7ca42c0.png)
 ![image](https://user-images.githubusercontent.com/50858440/192106512-9186eccd-9228-484d-99d0-2f135813e6f2.png)
 
