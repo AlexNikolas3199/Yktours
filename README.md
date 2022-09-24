@@ -10,7 +10,8 @@ An application for purchasing tickets to the Lena Pillars (and not only) on the 
 - [Sign in/Sign up](#sign-insign-up)
 
 **[The admin panel](#admin-panel)** has the following features:
-- [Сreating and editing a cruise](#creating-and-editing-a-cruise)
+
+- [Сreating and editing a cruise](#сreating-and-editing-a-cruise)
 - [Manual registration of passengers into cabins](#manual-registration-of-passengers-into-cabins)
 - [Marking the arrival of passengers](#marking-the-arrival-of-passengers)
 - [View cruise history](#view-cruise-history)
@@ -100,9 +101,11 @@ On command line, type in the following commands:
         
 ### Сreating and editing a cruise
 
-<img src="https://user-images.githubusercontent.com/50858440/192107317-6c2fa50c-4d7b-4378-b20b-524f5866d8f7.png" alt="">
-<img src="https://user-images.githubusercontent.com/50858440/192106951-64551682-b65e-4eae-98ee-ce43073997d4.png" alt="">
-<img src="https://user-images.githubusercontent.com/50858440/192106959-e30b1c62-2536-458d-ae11-914ac42e9778.png" alt="">
+<div style="display:flex;flex-wrap:wrap">
+<img src="https://user-images.githubusercontent.com/50858440/192109414-ffcd5088-bbc5-443e-a225-0108dfd8e979.png" alt="">
+<img src="https://user-images.githubusercontent.com/50858440/192109463-72e87896-770b-45e2-b329-f9de49c7f075.png" width="49%" alt="">
+<img src="https://user-images.githubusercontent.com/50858440/192109481-0c19accb-be92-4a67-804e-bfa6b87d7b2b.png" width="49%" alt="">
+</div>
 
 ### Manual registration of passengers into cabins
 
@@ -122,8 +125,11 @@ On command line, type in the following commands:
 ### Adding and editing admins and moderators
 
 ![image](https://user-images.githubusercontent.com/50858440/192107568-35f44b21-aa80-476c-8d9a-f626782fdc1d.png)
-![image](https://user-images.githubusercontent.com/50858440/192106513-2d72ad41-d1d9-4f3d-8161-9dafd7ca42c0.png)
-![image](https://user-images.githubusercontent.com/50858440/192106512-9186eccd-9228-484d-99d0-2f135813e6f2.png)
+
+<div style="display:flex;flex-wrap:wrap">
+<img src="https://user-images.githubusercontent.com/50858440/192109688-c42a3313-d54c-4b83-bbfc-78cc253f03ae.png" width="49%" alt="">
+<img src="https://user-images.githubusercontent.com/50858440/192109708-614126d2-b94f-45bf-ad14-7cc9d79c76a0.png" width="49%" alt="">
+</div>
 
 
 
