@@ -1,13 +1,27 @@
 # Yktours
 An application for purchasing tickets to the Lena Pillars (and not only) on the ship.
 
-[The app](#application) has the following features:
+**[The app](#application)** has the following features:
 
 - [Buying a ticket](#buying-a-ticket)
 - [Ticket return](#ticket-return)
 - [Mail editing](#mail-editing)
 - [Switch language](#switch-language)
-- [Sign in/Sign up](sign-insign-up)
+- [Sign in/Sign up](#sign-insign-up)
+
+**[The admin panel](#application)** has the following features:
+- Сreating and editing a cruise
+- Manual entry of passengers into cabins
+- Marking the arrival of passengers
+- View cruise history
+- Adding and editing admins and moderators
+
+Site "**yktours-web**" is responsible for:
+- confirmation of ticket purchase
+- mail confirmation
+
+**Other features:**
+- Creating ticket and attachment documents in backend
 
 ## Application
 
@@ -71,5 +85,10 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192096802-a32fedf0-c083-4a0e-936e-cded1596dbf0.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192096798-3389589b-bd84-4e1a-91d8-7297c0d08359.png" width="24.6%" alt="">
 <div>
+        
+        ![image](https://user-images.githubusercontent.com/50858440/192106512-9186eccd-9228-484d-99d0-2f135813e6f2.png)
+![image](https://user-images.githubusercontent.com/50858440/192106513-2d72ad41-d1d9-4f3d-8161-9dafd7ca42c0.png)
+![image](https://user-images.githubusercontent.com/50858440/192106518-e749a242-ef4c-43d3-bfcf-2802affa7d6d.png)
+
 
 
