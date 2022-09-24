@@ -1,6 +1,14 @@
 # Yktours
 An application for purchasing tickets to the Lena Pillars (and not only) on the ship.
 
+[The app](#application) has the following features:
+
+- [Buying a ticket](#buying-a-ticket)
+- [Ticket return](#ticket-return)
+- [Mail editing](#mail-editing)
+- [Switch language](#switch-language)
+- [Sign in/Sign up](sign-in/sign-up)
+
 ## Application
 
 ### Quick start
