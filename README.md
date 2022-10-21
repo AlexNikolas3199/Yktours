@@ -30,11 +30,11 @@ Site "**yktours-web**" is responsible for:
 
 On command line, type in the following commands:
 
-        $ cd Yktours/mobile       (Linux)
         cd Yktours\mobile         (Windows)
+        yarn android              
 
-        $ yarn android            (Linux)
-        yarn android              (Windows)
+        $ cd Yktours/mobile       (Linux)
+        $ yarn android            
         
 ### Screenshots
 
