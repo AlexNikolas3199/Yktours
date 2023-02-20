@@ -1,34 +1,34 @@
 # Yktours
-An application for purchasing tickets to the Lena Pillars (and not only) on the ship.
+Мобильное кроссплатформенное приложение для покупки билетов на Ленские столбы (и не только) на теплоход. Написан на react-native.
 
-**[The app](#application)** has the following features:
+**[Приложение](#application)** имеет следующие особенности:
 
-- [Buying a ticket](#buying-a-ticket)
-- [Ticket return](#ticket-return)
-- [Mail editing](#mail-editing)
-- [Switch language](#switch-language)
-- [Sign in/Sign up](#sign-insign-up)
+- [Покупка билета](#buying-a-ticket)
+- [Возврат билета](#ticket-return)
+- [Редактирование почты](#mail-editing)
+- [Переключить язык](#switch-language)
+- [Вход и регистрирация](#sign-insign-up)
 
-**[The admin panel](#admin-panel)** has the following features:
+**[Админ панель](#admin-panel)** имеет следующие особенности:
 
-- [Сreating and editing a cruise](#сreating-and-editing-a-cruise)
-- [Manual registration of passengers into cabins](#manual-registration-of-passengers-into-cabins)
-- [Marking the arrival of passengers](#marking-the-arrival-of-passengers)
-- [View cruise history](#view-cruise-history)
-- [Adding and editing admins and moderators](#adding-and-editing-admins-and-moderators)
+- [Создание и редактирование круиза](#сreating-and-editing-a-cruise)
+- [Ручная регистрация пассажиров в салонах](#manual-registration-of-passengers-into-cabins)
+- [Маркировка прибытия пассажиров](#marking-the-arrival-of-passengers)
+- [Посмотреть историю круиза](#view-cruise-history)
+- [Добавление и редактирование админов и модераторов](#adding-and-editing-admins-and-moderators)
 
-Site "**yktours-web**" is responsible for:
-- confirmation of ticket purchase
-- mail confirmation
+Сайт "**yktours-web**" ответственен за:
+- подтверждение покупки билета
+- подтверждение по почте
 
-**Other features:**
-- Creating ticket and attachment documents in backend
+**Другие особенности:**
+- Создание билетов и вложенных документов в бэкэнде
 
-## Application
+## Мобильное приложение
 
-### Quick start
+### Быстрый старт
 
-On command line, type in the following commands:
+В командной строке введите следующие команды:
 
         cd Yktours\mobile         (Windows)
         yarn android              
@@ -36,7 +36,7 @@ On command line, type in the following commands:
         $ cd Yktours/mobile       (Linux)
         $ yarn android            
         
-### Screenshots
+### Скриншоты
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192093303-a264d811-b02b-42ef-9b3d-d47799bb8c7f.png" width="24.6%" alt="">
@@ -45,7 +45,7 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192094267-1dd86d78-eb0e-4b6f-9ca7-bcc4b2a4a800.png" width="24.6%" alt="">
 </div>
 
-### Buying a ticket
+### Покупка билета
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192094913-030593e6-83b0-4387-9f39-9b812e8c5948.png" width="24.6%" alt="">
@@ -56,14 +56,14 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192094985-7ef8f205-ad51-4cd6-811d-2b1b08d54c73.png" width="24.6%" alt="">
 </div>
 
-### Ticket return
+### Возврат билета
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192095861-e1624f9a-76d5-4844-a5d8-d57f341a57f1.png" width="24.6%" alt="">
 <img src="https://user-images.githubusercontent.com/50858440/192095856-f4ce2f82-0eb5-41e0-aacc-ceb108dd3daa.png" width="24.6%" alt="">
 </div>
 
-### Mail editing
+### Редактирование почты
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192096323-a25743b8-8e4a-4b6a-8887-073da4c63730.png" width="24.6%" alt="">
@@ -72,7 +72,7 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192096386-47a393f9-49ec-4b3e-ac29-0d35c648d121.png" width="24.6%" alt="">
 </div>
 
-### Switch language
+### Переключение языка
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192096542-3db63d6a-6319-4e51-8cfb-c02b5b83c32c.png" width="24.6%" alt="">
@@ -80,7 +80,7 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192096658-4b82063f-fc24-49e3-b5bc-5692ba87de6c.png" width="24.6%" alt="">
 </div>
 
-### Sign in/Sign up
+### Вход и регистрация
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192096802-a32fedf0-c083-4a0e-936e-cded1596dbf0.png" width="24.6%" alt="">
