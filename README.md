@@ -87,11 +87,11 @@
 <img src="https://user-images.githubusercontent.com/50858440/192096798-3389589b-bd84-4e1a-91d8-7297c0d08359.png" width="24.6%" alt="">
 </div>
       
-## Admin panel
+## Админ панель
 
-### Quick start
+### Быстрый старт
 
-On command line, type in the following commands:
+Для запуска проекта в командной строке введите следующие команды:
 
         $ cd Yktours/admin       (Linux)
         cd Yktours\admin         (Windows)
@@ -99,7 +99,7 @@ On command line, type in the following commands:
         $ yarn start            (Linux)
         yarn start              (Windows)
         
-### Сreating and editing a cruise
+### Создание и редактирование круиза
 
 <div style="display:flex;flex-wrap:wrap">
 <img src="https://user-images.githubusercontent.com/50858440/192109414-ffcd5088-bbc5-443e-a225-0108dfd8e979.png" alt="">
@@ -107,22 +107,21 @@ On command line, type in the following commands:
 <img src="https://user-images.githubusercontent.com/50858440/192109481-0c19accb-be92-4a67-804e-bfa6b87d7b2b.png" width="49%" alt="">
 </div>
 
-### Manual registration of passengers into cabins
+### Ручная регистрация пассажиров в салонах
 
 ![image](https://user-images.githubusercontent.com/50858440/192106961-e61bca89-052b-4c52-84f7-3cb482d5abd5.png)
 ![gif](https://user-images.githubusercontent.com/50858440/192108912-ebdbdaa2-5bb6-482c-a087-5d9c4e6ac33a.gif)
 
-### Marking the arrival of passengers
+### Маркировка прибытия пассажиров
 
 ![image](https://user-images.githubusercontent.com/50858440/192108978-637965ca-8b74-4a97-ae33-686fe22624bc.png)
 
-### View cruise history
+### Посмотреть историю круиза
 
 ![image](https://user-images.githubusercontent.com/50858440/192109000-c656d83c-2501-48d9-9f98-761d1ec6f4c0.png)
 ![image](https://user-images.githubusercontent.com/50858440/192109045-0750fc6c-bc06-4a31-8aa7-12f9f843cf51.png)
 
-
-### Adding and editing admins and moderators
+### Добавление и редактирование админов и модераторов
 
 ![image](https://user-images.githubusercontent.com/50858440/192107568-35f44b21-aa80-476c-8d9a-f626782fdc1d.png)
 
